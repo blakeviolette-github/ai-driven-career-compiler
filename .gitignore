@@ -1,0 +1,80 @@
+# ==============================================================================
+# 1. LOCAL API CREDENTIALS (CRITICAL SECURITY)
+# ==============================================================================
+# Never commit your private API keys or environment variables
+apikey.txt
+.env
+.env.local
+.env.*.local
+
+# ==============================================================================
+# 2. PRIVATE RESUME ARTIFACTS & OUTPUTS
+# ==============================================================================
+# Ignore all private career master profile text/docx/pdf files
+artifacts/*
+# Force Git to track ONLY the sample profile so users know how to use your tool
+!artifacts/sample_profile.txt
+
+# Ignore all target job description files you drop in locally
+job_descriptions/*
+# Force Git to track ONLY the sample job description placeholder
+!job_descriptions/sample_job.txt
+
+# Ignore ALL generated PDF outputs (removes personal phone, address, email from GitHub)
+output_resumes/
+
+# ==============================================================================
+# 3. PYTHON ENGINE & ENVIRONMENT ARTIFACTS
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments (if you use venv, virtualenv, or pipenv)
+venv/
+.venv/
+env/
+.env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==============================================================================
+# 4. SYSTEM & IDE METADATA (WINDOWS / MAC / CODE EDITORS)
+# ==============================================================================
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Cursor / VS Code settings and local workspace cache
+.vscode/
+.cursor/
+*.code-workspace
+.idea/
