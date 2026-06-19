@@ -1,0 +1,25 @@
+COMPANY: Nexus Global Logistics & Technology
+POSITION: Senior Technical Product & Operations Program Manager
+LOCATION: Hybrid / Remote Options Available
+POSITION TYPE: Full-Time Engineering Leadership
+
+---
+
+## POSITION OVERVIEW & MISSION
+Nexus Global Logistics is seeking a highly technical, data-driven Senior Program Manager to spearhead the evolution of our next-generation automated routing networks and predictive capacity planning infrastructure. In this role, you will act as the critical strategic bridge connecting solutions architects, technical software squads, and business executives to translate high-volume data pipelines into concrete financial and operational efficiencies. 
+
+The ideal candidate possesses deep analytical mastery, a systems-engineering mindset, and a proven track record of deploying scalable automation models across complex, international linehaul or distribution networks.
+
+## CORE RESPONSIBILITIES & EXPECTATIONS
+* Data Product Architecture & Integration: Drive the end-to-end technical lifecycle and delivery roadmaps for operational simulation and forecasting products, collaborating with technical engineering teams to refine machine learning network models.
+* Data Pipeline Orchestration: Govern high-throughput, real-time data telematics pipelines, optimizing SQL data architectures and managing massive-scale data transfers while ensuring minimal downtime and strict data security layers.
+* Visual Engineering & Decision Support: Architect and deploy centralized, visual business intelligence suites (via Tableau, Power BI, or similar tools) to monitor asset transit, capacity constraints, and operational bottlenecks for thousands of cross-functional stakeholders.
+* S&OP & Cross-Functional Governance: Establish and scale cross-functional steering committees to synchronize demand forecasting, material procurement, financial reporting, and localized inventory velocity.
+* Continuous Operational Excellence: Apply rigorous statistical modeling, process mapping, and Agile methodologies (Scrum/Kanban) to systematically reduce process variance and eliminate physical or digital constraints.
+
+## MINIMUM QUALIFICATIONS & REQUIREMENT MATRIX
+* Experience: 10+ years of progressive technical leadership within global enterprise environments, supply chain networks, or digital transformation initiatives.
+* Technical Competencies: Advanced proficiency in SQL data ingestion, query optimization, and Python scripting for automated processes. Proven experience handling high-volume telemetry, ERP configurations (e.g., SAP), WMS architectures, or AutoCAD layout design.
+* Methodologies: Formally certified or expert in Agile delivery frameworks, Six-Sigma statistical data modeling (Green/Black Belt preferred), and project management lifecycles.
+* Communication Matrix: Exceptional stakeholder interface capabilities; a trusted partner capable of translating complex analytical structures into executive-level strategy and robust user stories without direct authority.
+* Education: B.S. or Master’s degree in Supply Chain Engineering, Industrial Engineering, Statistics, Computer Science, or a closely related analytical discipline.
