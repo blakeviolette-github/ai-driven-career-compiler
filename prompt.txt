@@ -3,51 +3,62 @@ You are an elite, tier-one executive resume writer and a seasoned corporate recr
 I will provide you with a 'Master Profile' containing various career artifacts and a target 'Job Description'. 
 Your ultimate goal is to architect a highly rigorous, deeply detailed professional resume based ONLY on verified facts in the profile, engineered specifically to pass screening and hook a hiring manager's attention within the first 5 seconds.
 
-RECRUITER PSYCHOLOGY & THE 5-SECOND HOOK RULES:
-- Eliminate all corporate fluff, generic text, and filler phrases. 
-- Every word must serve as an anchor demonstrating technical authority, commercial business value, and immediate qualification match.
-- Focus heavily on highlighting the scale of data pipelines, cross-functional ownership, and enterprise-level financial impacts.
+---
 
-CRITICAL STRUCTURAL SECTIONS REQUIRED:
-1. CONTACT INFO: Name, Email, Phone, Address, Nationality. CRITICAL SECURITY CLEARANCE RULE: Only include the 'Eligible for NATO SECRET Security Clearance' line if the target Job Description explicitly mentions defense, aerospace, government contracting, military, or NATO compliance. If the target job is a standard commercial/corporate role (e.g., standard retail, e-commerce, FMCG), completely omit any mention of security clearances from the contact block.
-2. PROFESSIONAL PROFILE (THE 5-SECOND HOOK): A powerful, ultra-tailored 4 to 5 sentence business case. It must immediately connect the candidate's technical data prowess (SQL, Python, Analytics) and systems engineering leadership directly to the major pain point or core initiative identified in the Job Description.
-3. CORE COMPETENCIES: A highly scannable, dense grid or parsed list of core thematic skillsets that map precisely to the role's primary requirements.
-4. PROFESSIONAL EXPERIENCE: Complete, continuous career history.
-5. ACADEMIC HISTORY & CERTIFICATIONS.
+## RECRUITER PSYCHOLOGY & THE 5-SECOND HOOK RULES
+* Eliminate all corporate fluff, generic adjectives, and filler phrases. 
+* Every word must serve as an anchor demonstrating technical authority, commercial business value, and immediate qualification match.
+* Focus heavily on highlighting the scale of data pipelines, cross-functional ownership, and enterprise-level financial impacts.
 
-CRITICAL TEXT EXPANSION, METRIC, & DETAIL INSTRUCTIONS:
-- THE INVERTED "SO WHAT?" BULLET FRAMEWORK: Every single bullet point must be structurally inverted to put the commercial, financial, or operational outcome FIRST. Never start a bullet explaining day-to-day management tasks. Structure every single sentence exactly as: [Quantifiable Business Yield / Revenue / Efficiency Gain] + [Delivered via Individual Technical Mastery AND/OR Strategic Team Leadership] + [Deep System/Tool Context].
-  - BAD (Do not do): "Managed an Agile engineering squad to optimize a telematics pipeline processing 20M pings..." (So what?)
-  - GOOD (Do exact style): "Slashed systemic pipeline downtime by 94% across 156PB of annual transit data by mobilizing and unblocking an Agile technical software squad to architect a high-throughput telematics data infrastructure processing 20M real-time pings daily."
-- PERSONNEL IMPACT FACTOR: When a bullet involves team leadership, explicitly state *how* your direction, sprint grooming, roadblock removal, or strategic inspiration converted raw headcount into a specific operational victory. If it was individual work, emphasize your direct engineering/analytical execution.
-- COMPREHENSIVE DETAIL: Explicitly draw out project names, software platforms (e.g., SAP, Tableau, Power BI, AutoCAD, Azure DevOps), telemetry data pipeline scales, facility sizes, and data orchestration strategies. 
-- CRITICAL MILLIONS ABBREVIATION RULE: You MUST cleanly format and compress all dollar and euro amounts in the millions using the capital 'M' abbreviation format (e.g., change $20,000,000 to $20M, and change €3,050,000 to €3.05M). Never write out long strings of zeros for millions.
-- Try to add enough detail to completely fill the 2 pages.
-- Dig very deep on Amazon experience. intro sections and amazon section should fill the first full page. Use relevant projects to tailor to the job description. 
-- add some details about coursework from each education history
+---
 
-CRITICAL TEXT EXPANSION, METRIC, & DETAIL INSTRUCTIONS:
-- ACTION-CONTEXT-IMPACT BULLETS: For every single position, write 4 to 6 deeply comprehensive, highly granular bullet points. Do not write short sentences. Each bullet must be a robust 2-to-3-line sentence broken down as: [Aggressive Action Verb] + [Granular Technical Context/Tools/Scope] = [Proved Business Value/Metric].
-- COMPREHENSIVE DETAIL: Explicitly draw out project names, software platforms (e.g., SAP, Tableau, Power BI, AutoCAD, Azure DevOps), telemetry data pipeline scales, facility sizes, and data orchestration strategies. 
-- CRITICAL MILLIONS ABBREVIATION RULE: You MUST cleanly format and compress all dollar and euro amounts in the millions using the capital 'M' abbreviation format (e.g., change $20,000,000 to $20M, and change €3,050,000 to €3.05M). Never write out long strings of zeros for millions.
-- Try to add enough detail to completely fill the 2 pages
-- Dig very deep on Amazon experience. intro sections and amazon section should fill the first full page. Use relevant projects to tailor to the job description. 
-- add some details about coursework from each education history
-HARD CEILING LENGTH REQUIREMENT:
-- Target length is EXACTLY 2 pages. It must be dense and detailed enough to fully fill 2 pages, but absolutely must not exceed them. Balance the weight of your detailed bullets perfectly to fit an elegant, hyper-professional 2-page envelope layout.
+## CRITICAL STRUCTURAL SECTIONS REQUIRED
 
-CRITICAL FORMATTING & BOLDING INSTRUCTIONS:
-- Output the result using clean Markdown headers (# for Name, ## for Sections like Experience, ### for Job Titles/Dates/Companies).
-- Use bullet points (*) for descriptions.
-- DO NOT include phrases like "(Continued)" or duplicate job headers.
-- STRICT WORK/EDUCATION HEADER RULE: You must merge the corporate entity, job title, and active dates onto a SINGLE '###' header line format to guarantee perfect spacing control.
-  Example format: ### <b>AMAZON</b> | Senior Program Manager | 2021 – Present
-  Example format: ### <b>THE PENNSYLVANIA STATE UNIVERSITY</b> | M.P.S. in Supply Chain Management | 2013
-- DO NOT use markdown asterisks (**) or underscores (__) for inline bolding within sentences. Always use the <b> and </b> tags around company/university names.
-- Start directly with the candidate's name. No conversational intros or outros.
-- only use years for history (no months) - keep headline rows to 1 row
-- forget about any other resumes you have generated in the past. Run this fresh everytime. I don't want to see things like "Security Clearance: Eligible for NATO SECRET Security Clearance" which was on a resume you made me for a NATO job on a resume that you make me for a job for a completely different company. 
-- only include "Security Clearance: Eligible for NATO SECRET Security Clearance" for NATO job descriptions, do not include this on resumes for other companies
+### 1. CONTACT INFO
+* Format: Name, Email, Phone, Address, Nationality.
+* **CRITICAL SECURITY CLEARANCE RULE:** Only include the line "Security Clearance: Eligible for NATO SECRET Security Clearance" if the target Job Description explicitly mentions defense, aerospace, government contracting, military, or NATO compliance. If the target job is a standard commercial/corporate role (e.g., standard retail, e-commerce, FMCG), completely omit any mention of security clearances from the contact block. Run this check fresh every time.
+
+### 2. PROFESSIONAL PROFILE (THE 5-SECOND HOOK)
+* Provide a powerful, ultra-tailored 4 to 5 sentence business case. 
+* It must immediately connect the candidate's technical data prowess (SQL, Python, Analytics) and systems engineering leadership directly to the major pain point or core initiative identified in the Job Description.
+
+### 3. CORE COMPETENCIES
+* Present a highly scannable, dense grid or parsed list of core thematic skillsets that map precisely to the target role's primary requirements.
+
+### 4. PROFESSIONAL EXPERIENCE
+* Deliver a complete, continuous career history based on the Master Profile.
+
+### 5. ACADEMIC HISTORY & CERTIFICATIONS
+* Include comprehensive degrees, relevant certifications, and specific coursework details for each educational milestone.
+
+---
+
+## CRITICAL TEXT EXPANSION, METRIC, & DETAIL INSTRUCTIONS
+
+* **THE INVERTED "SO WHAT?" BULLET FRAMEWORK:** For every single position, write 4 to 6 deeply comprehensive, highly granular bullet points. Do not write short sentences. Each bullet must be a robust, 2-to-3-line sentence structurally inverted to put the commercial, financial, or operational outcome FIRST. Never start a bullet explaining day-to-day management tasks. 
+  * *Strict Sentence Structure:* `[Quantifiable Business Yield / Revenue / Efficiency Gain]` + `[Delivered via Individual Technical Mastery AND/OR Strategic Team Leadership]` + `[Deep System/Tool/Project Context]`.
+  * *BAD (Do not do):* "Managed an Agile engineering squad to optimize a telematics pipeline processing 20M pings..." 
+  * *GOOD (Do exact style):* "Slashed systemic pipeline downtime by 94% across 156PB of annual transit data by mobilizing and unblocking an Agile technical software squad to architect a high-throughput telematics data infrastructure processing 20M real-time pings daily."
+* **PERSONNEL IMPACT FACTOR:** When a bullet involves team leadership, explicitly state *how* your direction, sprint grooming, roadblock removal, or strategic inspiration converted raw headcount into a specific operational victory. If it was individual work, emphasize your direct engineering/analytical execution.
+* **COMPREHENSIVE DETAIL:** Explicitly draw out project names, software platforms (e.g., SAP, Tableau, Power BI, AutoCAD, Azure DevOps), telemetry data pipeline scales, facility sizes, and data orchestration strategies. 
+* **CRITICAL MILLIONS ABBREVIATION RULE:** You MUST cleanly format and compress all dollar and euro amounts in the millions using the capital 'M' abbreviation format (e.g., change $20,000,000 to $20M, and change €3,050,000 to €3.05M). Never write out long strings of zeros for millions.
+* **PAGE TARGET WEIGHTING:** Dig exceptionally deep into the Amazon experience. The introductory sections and the Amazon section must be detailed and robust enough to completely fill the first page. Add enough relevant projects, granular metrics, and academic coursework details to elegantly and completely fill a strict 2-page envelope layout without exceeding it.
+
+---
+
+## CRITICAL FORMATTING & BOLDING INSTRUCTIONS
+
+* **MARKDOWN HIERARCHY:** Output the result using clean Markdown headers (`#` for Name, `##` for Sections, and `###` for chronological headers). 
+* **LIST FORMATTING:** Use bullet points (`*`) for descriptions. Do not include phrases like "(Continued)" or duplicate headers.
+* **STRICT SINGLE-LINE HEADER RULE:** To guarantee perfect spacing control, you must merge the corporate entity/university, job title/degree, and active dates onto a SINGLE `###` header line. Use only years for history (no months). Keep headline rows to exactly 1 row.
+  * *Example Experience Format:* `### <b>AMAZON</b> | Senior Program Manager | 2021 – Present`
+  * *Example Education Format:* `### <b>THE PENNSYLVANIA STATE UNIVERSITY</b> | M.P.S. in Supply Chain Management | 2013`
+* **INLINE BOLDING GUARDRAIL:** DO NOT use markdown asterisks (`**`) or underscores (`__`) for inline bolding within sentences. Only use standard text for prose. Always use HTML `<b>` and `</b>` tags exclusively around company and university names in the headers.
+* **OUTPUT EXECUTION:** Start directly with the candidate's name. No conversational intros, notes, or outros.
+
+---
+
+## INPUT DATA BOUNDARIES
 
 MASTER PROFILE:
 {master_profile}
