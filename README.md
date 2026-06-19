@@ -1,42 +1,47 @@
-# AI-Driven Executive Application Pipeline
+# AI-Driven Career Compiler
 
-An asynchronous, data-driven profile mapping engine designed to orchestrate large language models (LLMs) and programmatically compile hyper-tailored, executive-ready application packages. 
+An automated, two-phase prompt orchestration engine that evaluates executive-level profiles against specific job descriptions, calculates an ATS compliance fit score, reports strengths and alignment blindspots, and compiles hyper-tailored application assets (Resumes & Cover Letters).
 
-This repository decouples structural candidate data from behavioral recruiter heuristics. By feeding raw multi-source career data ("artifacts") into an automated backend data pipeline, the orchestration layer evaluates context-specific dependencies against an incoming job specification, strips out non-contextual noise, and renders visually cohesive, pixel-perfect A4 documents via a layout compilation layer.
+## 🚀 Key Features
 
-## Architecture & Execution Strategy
-
-1. **Decoupled Data Infrastructure Layer:** Reads raw, unparsed `.txt`, `.docx`, and `.pdf` professional histories from an isolated local boundary.
-2. **Contextual Tokenization & Orchestration Layer:** Feeds a hyper-parameterized `gpt-4o-mini` engine through independent prompt vectors (`prompt.txt` and `prompt_cl.txt`). This structure isolates instructions from source text, applying strict conditional logic to include/omit domain dependencies (e.g., security clearances) dynamically based on target requirements.
-3. **Behavioral Business Layer:** Inverts traditional achievement framing to implement a **Metrics-First "So-What?" Architecture**. Sentence structures are algorithmically guided to assert quantified commercial, financial, and operational ROI before explaining the underlying engineering or team leadership mechanisms.
-4. **Document Layout Compilation Layer:** Consumes optimized markdown text and programmatically maps layout components onto a geometric layout engine utilizing `ReportLab` flowables to enforce strict multi-page ceilings and a uniform typographic layout.
+*   **Phase 1: Deep Fit Check Matrix:** Evaluates your master ledger against a target job description using an LLM-driven ATS validation prompt. Returns structural strengths and interview blindspots.
+*   **Automated 80% Compliance Gate:** Automatically pauses execution if your background matches less than 80% of the target role's core constraints, protecting token usage and warning you of high rejection risks.
+*   **Phase 2: Contextual Tailoring:** Deeply injects structural hooks and metrics alignment into your tailored assets using dedicated engineering prompt templates.
 
 ---
 
-## Technical Stack & Dependencies
+## 📁 Project Directory Layout
 
-* **Language:** Python 3.x
-* **AI Core Layer:** OpenAI API Client (Contextual Chat Completions Pipeline)
-* **Data Processing:** PyPDF2 (PDF ingestion), python-docx (OpenXML extraction), glob (Pattern-matching file discovery)
-* **Document Compilation Assembly:** ReportLab (Flowables, SimpleDocTemplate, ParagraphStyle mapping, Canvas draw callbacks)
-
----
-
-## File System Topology
+Ensure your local directory structure perfectly matches the blueprint below:
 
 ```text
+.
 ├── artifacts/
-│   ├── sample_profile.txt       # Public mockup blueprint for master professional files
-│   └── [private_dossiers].txt   # Real career master profiles (Git-ignored)
+│   ├── sample_profile.txt       # Public reference mockup
+│   └── Real_Master_Profile.txt  # Your actual unedited career ledger (Git-ignored)
 ├── job_descriptions/
-│   ├── sample_job.txt           # Public mockup blueprint for target requirements
-│   └── [target_roles].txt       # Active target job descriptions (Git-ignored)
-├── output_resumes/              # Dynamically compiled output directory (Git-ignored)
-│   ├── Blake_Violette_Resume_[Job].pdf
-│   └── Blake_Violette_CoverLetter_[Job].pdf
-├── .gitignore                   # Production-grade system and security boundary map
-├── apikey.txt                   # Secure local Open AI credential map (Git-ignored)
-├── generator.py                 # Core backend automation and layout assembly pipeline
-├── prompt.txt                   # Production engineering prompts for resume compilation
-├── prompt_cl.txt                # Production engineering prompts for cover letter generation
-└── README.md                    # System documentation
+│   ├── sample_job.txt           # Public reference mockup
+│   └── target_role_name.txt     # The JDs you want to target (Git-ignored)
+├── apikey.txt                   # Local raw OpenAI API Key string (Git-ignored)
+├── generator.py                 # Core pipeline orchestration script
+├── prompt.txt                   # Resume engineering core instructions
+├── prompt_cl.txt                # Cover letter engineering core instructions
+└── USAGE_SOP.md                 # Execution runbook
+
+```
+
+---
+
+## 🛠️ Quick Start
+
+1. Provide your OpenAI API key in a raw text file named `apikey.txt` in the root folder.
+2. Drop your master career ledger into `artifacts/Real_Master_Profile.txt`.
+3. Drop your target job descriptions as text files into the `job_descriptions/` directory.
+4. Execute the pipeline terminal script:
+
+```bash
+   python generator.py
+
+```
+
+5. Enter the numeric option corresponding to your target job when prompted by the terminal menu.
